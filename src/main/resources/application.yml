@@ -12,9 +12,9 @@ spring:
       client:
         registration:
           first-client:
-            client-id: first-client
-            client-secret: noonewilleverguess
-            #client-name: first-client
+            client-id: test_client
+            client-secret: client_password
+            client-name: first-client
             scope: resource:read
             provider: custom-provider
             redirect-uri: "{baseUrl}/login/oauth2/code/first-client"
